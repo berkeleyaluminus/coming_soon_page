@@ -8,7 +8,6 @@ import Navbar from "./components/navbar.component";
 function App() {
   return (
     <Router>
-      <div className="container">
       <Navbar/>
         <main>
           <section className="presentation">
@@ -16,8 +15,8 @@ function App() {
               <div className="description-text">
                 <h1>Crowdfund Your College Experience.</h1>
                 <p class="subhead">
-                  Aluminus is a school-specific crowdfunding platform that allows university students
-                  with financial needs to crowdfund money from alumni donations.
+                  Aluminus is a school-specific crowdfunding platform that lets university students
+                  with financial needs crowdfund money from alumni donations.
                 </p>
               </div>
               <div class="more-info">
@@ -31,7 +30,6 @@ function App() {
             </div>
           </section>
         </main>
-      </div>
     </Router>
   );
 }
