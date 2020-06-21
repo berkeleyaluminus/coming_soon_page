@@ -49,7 +49,7 @@ export default class ReceiveEmails extends Component {
             <div>
                 <form onSubmit={this.handleSubmit}>
                     <div className="form-group">
-                        <label>Get on the Wait List: </label>
+                        <label>Enter your email below for information about early access. </label>
                         <input
                             className="form-control"
                             type = "email"
@@ -60,7 +60,7 @@ export default class ReceiveEmails extends Component {
                         />
                     </div>
                     {/* <div className = "form-group"> */}
-                        <button type="submit" className="btn btn-primary">Submit</button>
+                        <button type="submit" className="btn btn-primary">Get Early Access</button>
                     {/* </div>   */}
                 </form>
             </div>
