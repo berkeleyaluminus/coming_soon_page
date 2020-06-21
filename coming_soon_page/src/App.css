@@ -21,7 +21,7 @@
 
 .nav-link{
   color: #40404e;
-  font-size: 18px;
+  font-size: 15px;
   text-decoration: none;
 }
 
@@ -51,16 +51,17 @@
 }
 
 .description-text h1{
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 550;
     width: 120%;
     margin-left: 5px;
 }
 
 .description-text p {
-  margin-top: 5px;
+  margin-top: 10px;
   margin-left: 5px;
   font-size: 16px;
+  font-weight: 380;
   color: #46465c;
   width: 110%;
 }
