@@ -9,17 +9,28 @@ function App() {
   return (
     <Router>
       <div className="container">
-
       <Navbar/>
-      
         <main>
-          <h1>Crowdfund Your College Experience</h1>
-          <p class="subhead">Aluminus is a school-specific crowdfunding platform that allows university students
-          with financial needs to crowdfund money from alumni donations.</p>
+          <section className="presentation">
+            <div className="product-description">
+              <div className="description-text">
+                <h1>Crowdfund Your College Experience.</h1>
+                <p class="subhead">
+                  Aluminus is a school-specific crowdfunding platform that allows university students
+                  with financial needs to crowdfund money from alumni donations.
+                </p>
+              </div>
+              <div class="more-info">
+              <div class="email-collect">
+                <Route path = "/" exact component = {ReceiveEmails} />
+              </div>
+              </div>
+            </div>
+            <div className = "main-image">
+              <img src={require('./images/woman-tossing-her-hat-3028514-removebg-preview.png')} alt="university-student"/>
+            </div>
+          </section>
         </main>
-        
-        <Route path = "/" exact component = {ReceiveEmails} />
-
       </div>
     </Router>
   );
