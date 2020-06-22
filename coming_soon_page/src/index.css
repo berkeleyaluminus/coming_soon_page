@@ -32,25 +32,8 @@ code {
   font-size: 21px;
 }
 
-/*
-:root {
-  --bg: #2f8eed;
-  --bg-accent: #b9d4f3;
-  --text-color: #dadce1;
-  --nav-size: 60px;
-  --border: 1px solid #287ccf;
-  --border-radius: 8px;
-  --speed: 500ms;
+footer{
+  background: #5CA0D3;
+  width: 100%;
+  padding: 3em 0;
 }
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  color: var(--text-color);
-  text-decoration: none;
-}
-*/

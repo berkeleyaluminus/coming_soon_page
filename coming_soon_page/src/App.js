@@ -29,6 +29,30 @@ function App() {
               <img src={require('./images/woman-tossing-her-hat-3028514-removebg-preview.png')} alt="university-student"/>
             </div>
           </section>
+
+          <h1 className="about-us-tag">Aluminus for</h1>
+
+          <section className="about-us">
+            <div class="student-info">
+              <h1>Students</h1>
+              <p>
+                As a student, connect with university alumni to support your college education. Garner financial support and personalized mentorship from supporters who have been in your shoes.
+              </p>
+            </div>
+            <div className="alumni-info">
+              <h1>Alumni</h1>
+              <p>
+                As an alumnus, discover high-potential students and empower them to succeed at your alma mater. Witness the direct impact of your contributions through the students whom you support.
+              </p>
+            </div>
+          </section>
+
+          <h1 className="partners-tag">Partners</h1>
+
+          <section className="partners">
+            <img className="mozlogo" src={require('./images/mozillalogo.png')} alt="mozillalogo"/>
+            <img className="CAAlogo" src={require('./images/CAAlogo.png')} alt="CAAlogo"/>
+          </section>
         </main>
     </Router>
   );
