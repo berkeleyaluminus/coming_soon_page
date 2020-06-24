@@ -48,10 +48,9 @@ export default class ReceiveEmails extends Component {
         return (
             <div>
                 <form onSubmit={this.handleSubmit}>
-                    <div className="form-group">
-                        <label>Enter your email below for information about early access. </label>
+                    <div className="input-form">
                         <input
-                            className="form-control"
+                            className="input-space"
                             type = "email"
                             required
                             value = {this.state.email}
@@ -59,9 +58,9 @@ export default class ReceiveEmails extends Component {
                             placeholder= "Enter email"
                         />
                     </div>
-                    {/* <div className = "form-group"> */}
-                        <button type="submit" className="btn btn-primary">Get Early Access</button>
-                    {/* </div>   */}
+                    <div className="submit-form">
+                        <button type="submit" className="req-acc-btn">Request Access</button>
+                    </div>
                 </form>
             </div>
         )

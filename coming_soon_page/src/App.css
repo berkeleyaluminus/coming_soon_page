@@ -12,14 +12,10 @@
   margin: none;
 }
 
-main{
-  width: 110px;
-}
-
 .nav-links{
   justify-content: space-around;
   list-style: none;
-  width: 40%;
+  width: 400px;
   float: right;
 }
 
@@ -33,18 +29,22 @@ main{
 
 .presentation{
   display: flex;
-  width: 100%;
+  height: 80px;
+  width: 1370px;
   margin: auto;
   min-height: 80vh;
-  align-items: center;
+  /* background: pink; */
+  flex-direction: column;
 }
 
 .product-description{
+  align-items: flex-start;
+  width: 600px;
+  margin-top: 50px;
+  margin-left: 40px;
   flex:1;
-  margin-left: 80px;
 }
-
-.email-collect{
+/* .email-collect{
   float: top;
   margin-top: 90px;
   flex: 1;
@@ -54,12 +54,22 @@ main{
   height: 150%;
   border-radius: 10px 10px 10px 10px;
   background: #dfdede;
+} */
+
+.description-text{
+  margin-left: 40px;
+  margin-top: 40px;
+  width: 500px;
+}
+
+.more-info{
+  display: flex;
 }
 
 .description-text h1{
     font-size: 48px;
     font-weight: 550;
-    width: 200%;
+    width: 100%;
     margin-left: 5px;
 }
 
@@ -69,22 +79,29 @@ main{
   font-size: 16px;
   font-weight: 380;
   color: #46465c;
-  width: 200%;
+}
+
+.main-image{
+  width: 400px;
+  height: 380px;
+  margin-bottom: 100px;
+  flex: 1;
+}
+
+.col1{
+  display: flex;
 }
 
 .main-image img {
-  height: 70vh;
-  margin-left: 300px;
-  margin-bottom: 85px;
+  margin-left: 30px;
 }
 
 .about-us-tag{
   align-items: center;
-  position: absolute;
-  margin-left: 310px;
+  /* margin-left: 310px;
   margin-right: 310px;
-  margin-top: 100px;
-  width: 50%;
+  margin-top: 100px; */
+  justify-content: center;
   text-align: center;
 }
 
@@ -138,6 +155,7 @@ main{
   display: flex;
   margin-top: 250px;
   margin-bottom: 50px;
+  
 }
 
 .mozlogo{
@@ -148,4 +166,30 @@ main{
 .CAAlogo{
   margin: 20px 100px 100px 125px;
   height: 15vh;
+}
+
+.input-space{
+  padding: 10px 24px;
+  margin-left: 40px;
+  width: 250px;
+  height: 45px;
+}
+
+.req-acc-btn{
+  width: 180px;
+  height: 45px;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  background-color: #5CA0D3;
+  border: none;
+  margin-left: 20px;
+}
+
+form{
+  display: flex;
+}
+
+.col2{
+  /* background: lightgreen; */
 }
