@@ -37,3 +37,11 @@ footer{
   width: 100%;
   padding: 3em 0;
 }
+
+ul {
+  list-style-type: none;
+}
+
+h4{
+  padding: 2%;
+}

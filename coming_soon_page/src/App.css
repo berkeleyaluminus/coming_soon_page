@@ -103,42 +103,55 @@
   margin-top: 100px; */
   justify-content: center;
   text-align: center;
+  /* margin: 3%; */
+  margin: 0 auto;
+
 }
 
 .about-us{
-  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  /* display: flex;
   margin-top: 250px;
-  margin-bottom: 80px;
-  text-align: center;
+  margin-bottom: 80px; */
+  /* text-align: center; */
 }
 
 .student-info{
-  margin-left: 230px;
+  text-align: center;
+  width: 40%;
+  display: inline-block;
+  /* margin-left: 230px; */
   flex: 1;
-  margin-right: 100px;
+  /* margin-right: 100px; */
+  margin: 5%;
 }
 
 .student-info h1{
-  width: 180%;
+  /* width: 180%; */
 }
 
 .student-info p{
   margin-top: 20px;
-  width: 180%;
+  /* width: 180%; */
 }
 
 .alumni-info{
-  margin-left: 400px;
+  text-align: center;
+  width: 40%;
+  display: inline-block;
+  /* margin-left: 400px; */
   flex: 1;
+  margin: 5%
 }
 
 .alumni-info h1{
-  width: 180%;
+  /* width: 180%; */
 }
 
 .alumni-info p{
   margin-top: 20px;
-  width: 180%;
+  /* width: 180%; */
 }
 
 .partners-tag{

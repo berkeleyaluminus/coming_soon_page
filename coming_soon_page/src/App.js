@@ -5,6 +5,9 @@ import "bootstrap/dist/css/bootstrap.min.css"
 
 import ReceiveEmails from "./components/receive-emails.component";
 import Navbar from "./components/navbar.component";
+
+
+
 function App() {
   return (
     <Router>
@@ -46,7 +49,7 @@ function App() {
             <div className="alumni-info">
               <h1>Alumni</h1>
               <p>
-                As an alumnus, discover high-potential students and empower them to succeed at your alma mater. Witness the direct impact of your contributions through the students whom you support.
+                As an alum, discover high-potential students and empower them to succeed at your alma mater. Witness the direct impact of your contributions through the students whom you support.
               </p>
             </div>
           </section>
