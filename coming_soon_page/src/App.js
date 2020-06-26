@@ -32,12 +32,10 @@ function App() {
               <div className = "main-image">
                 <img src={require('./images/woman-tossing-her-hat-3028514-removebg-preview.png')} alt="university-student"/>
               </div>
-         </div>
+          </div>
           <div className="col2">
           <h1 className="about-us-tag">Aluminus for</h1>
           </div>
-        </section>
-
 
           <section className="about-us">
             <div class="student-info">
@@ -53,12 +51,20 @@ function App() {
               </p>
             </div>
           </section>
+        
+        <div className="col4">
+            <h1 className="partners-tag">Partners</h1>
 
-          <h1 className="partners-tag">Partners</h1>
+            <section className="partners">
+              <div className="logo1">
+                <img className="mozlogo" src={require('./images/mozillalogo.png')} alt="mozillalogo"/>
+              </div>
+              <div className="logo2">
+                <img className="CAAlogo" src={require('./images/CAAlogo.png')} alt="CAAlogo"/>
+              </div>
+          </section>
+        </div>
 
-          <section className="partners">
-            <img className="mozlogo" src={require('./images/mozillalogo.png')} alt="mozillalogo"/>
-            <img className="CAAlogo" src={require('./images/CAAlogo.png')} alt="CAAlogo"/>
         </section>
       </main>
     </Router>

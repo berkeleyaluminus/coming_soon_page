@@ -21,40 +21,28 @@
 
 .nav-link{
   color: #40404e;
-  margin-top: 3px;
+  margin-top: 10px;
   font-size: 13.5px;
-  font-weight: 480;
+  font-weight: 500;
   text-decoration: none;
 }
 
 .presentation{
   display: flex;
-  height: 80px;
+  height: 270px;
   width: 1370px;
   margin: auto;
-  min-height: 80vh;
-  /* background: pink; */
+  min-height: 270vh;
   flex-direction: column;
 }
 
 .product-description{
   align-items: flex-start;
   width: 600px;
-  margin-top: 50px;
+  margin-top: 80px;
   margin-left: 40px;
   flex:1;
 }
-/* .email-collect{
-  float: top;
-  margin-top: 90px;
-  flex: 1;
-  padding: 10px 15px 10px 15px;
-  font-size: 16px; 
-  width: 180%;
-  height: 150%;
-  border-radius: 10px 10px 10px 10px;
-  background: #dfdede;
-} */
 
 .description-text{
   margin-left: 40px;
@@ -74,11 +62,11 @@
 }
 
 .description-text p {
-  margin-top: 10px;
+  margin-top: 30px;
   margin-left: 5px;
   font-size: 16px;
   font-weight: 380;
-  color: #46465c;
+  color: #46465c; 
 }
 
 .main-image{
@@ -90,6 +78,10 @@
 
 .col1{
   display: flex;
+}
+
+.col2{
+  margin-top: 250px;
 }
 
 .main-image img {
@@ -109,8 +101,9 @@
 }
 
 .about-us{
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
+  display: flex;
   /* display: flex;
   margin-top: 250px;
   margin-bottom: 80px; */
@@ -119,66 +112,75 @@
 
 .student-info{
   text-align: center;
-  width: 40%;
-  display: inline-block;
-  /* margin-left: 230px; */
+  align-items: center;
+  justify-content: center;
   flex: 1;
-  /* margin-right: 100px; */
-  margin: 5%;
+  margin: 10%;
+  /* background: yellowgreen; */
+  display: flex;
+  flex-direction: column;
 }
 
 .student-info h1{
-  /* width: 180%; */
+  width: 50%;
 }
 
 .student-info p{
-  margin-top: 20px;
-  /* width: 180%; */
+  margin-top: 25px;
+  width: 50%;
+  font-size: 18px;
+}
+
+.alumni-info p{
+  margin-top: 25px;
+  width: 50%;
+  font-size: 18px;
+}
+
+.alumni-info h1{
+  width: 50%;
 }
 
 .alumni-info{
   text-align: center;
-  width: 40%;
-  display: inline-block;
-  /* margin-left: 400px; */
+  align-items: center;
   flex: 1;
-  margin: 5%
-}
-
-.alumni-info h1{
-  /* width: 180%; */
-}
-
-.alumni-info p{
-  margin-top: 20px;
-  /* width: 180%; */
+  margin: 10%;
+  /* background: #5CA0D3; */
+  display: flex;
+  flex-direction: column;
 }
 
 .partners-tag{
   align-items: center;
-  position: absolute;
-  margin-left: 310px;
-  margin-right: 310px;
-  margin-top: 100px;
-  width: 50%;
+  justify-content: center;
   text-align: center;
+  margin: 0 auto;
+  margin-top: 150px;
 }
 
 .partners{
   display: flex;
-  margin-top: 250px;
+  margin-top: 90px;
   margin-bottom: 50px;
-  
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 200px;
 }
 
-.mozlogo{
-  margin: 50px 100px 100px 400px;
-  height: 10vh;
+.logo1{
+  flex:1;
+  justify-content: center;
+  align-self: center;
+  margin-top: 25px;
 }
 
-.CAAlogo{
-  margin: 20px 100px 100px 125px;
-  height: 15vh;
+.logo2{
+  flex:1;
+  margin-left: 350px;
+  justify-content: center;
+  align-self: center;
 }
 
 .input-space{
@@ -194,7 +196,7 @@
   font-size: 18px;
   text-align: center;
   color: white;
-  background-color: #5CA0D3;
+  background-color: #67bdff;
   border: none;
   margin-left: 20px;
 }
@@ -203,6 +205,6 @@ form{
   display: flex;
 }
 
-.col2{
-  /* background: lightgreen; */
+.email-collect{
+  margin-top: 28px;
 }
