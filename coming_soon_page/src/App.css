@@ -1,9 +1,14 @@
-.logo-container{
+.logo-container, .nav-links{
+  display: flex;
   flex: 1;
-  float: left;
 }
 
-.logo-container, .nav-links{
+.logo {
+  font-weight: 500;
+  font-size: 21px;
+}
+
+.heading {
   display: flex;
 }
 
@@ -21,7 +26,7 @@
 
 .nav-link{
   color: #40404e;
-  margin-top: 10px;
+  margin-top: 20px;
   font-size: 13.5px;
   font-weight: 500;
   text-decoration: none;
@@ -30,8 +35,7 @@
 .presentation{
   display: flex;
   height: 270px;
-  width: 1370px;
-  margin: auto;
+  width: 1525px;
   min-height: 270vh;
   flex-direction: column;
 }
@@ -40,7 +44,7 @@
   align-items: flex-start;
   width: 600px;
   margin-top: 80px;
-  margin-left: 40px;
+  margin-left: 30px;
   flex:1;
 }
 
@@ -64,24 +68,29 @@
 .description-text p {
   margin-top: 30px;
   margin-left: 5px;
-  font-size: 16px;
-  font-weight: 380;
-  color: #46465c; 
-}
-
-.main-image{
-  width: 400px;
-  height: 380px;
-  margin-bottom: 100px;
-  flex: 1;
+  font-size: 17px;
+  font-weight: 500;
+  /* color: #46465c;  */
 }
 
 .col1{
   display: flex;
+  height: 650px;
+  width: 1525px;
+  background-image: url("images/bg1v6wblur.jpg");
+}
+
+.downarrow{
+  align-self: center;
+  margin-top: 30px;
+  justify-content: center;
+  text-align: center;
+  margin-left:auto;
+  margin-right: auto;
 }
 
 .col2{
-  margin-top: 250px;
+  margin-top: 100px;
 }
 
 .main-image img {
@@ -90,24 +99,15 @@
 
 .about-us-tag{
   align-items: center;
-  /* margin-left: 310px;
-  margin-right: 310px;
-  margin-top: 100px; */
   justify-content: center;
   text-align: center;
-  /* margin: 3%; */
   margin: 0 auto;
-
 }
 
 .about-us{
   width: 100%;
   margin: 0 auto;
   display: flex;
-  /* display: flex;
-  margin-top: 250px;
-  margin-bottom: 80px; */
-  /* text-align: center; */
 }
 
 .student-info{
@@ -156,12 +156,12 @@
   justify-content: center;
   text-align: center;
   margin: 0 auto;
-  margin-top: 150px;
+  margin-top: 110px;
 }
 
 .partners{
   display: flex;
-  margin-top: 90px;
+  margin-top: 80px;
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
@@ -178,7 +178,7 @@
 
 .logo2{
   flex:1;
-  margin-left: 350px;
+  margin-left: 380px;
   justify-content: center;
   align-self: center;
 }
@@ -196,7 +196,7 @@
   font-size: 18px;
   text-align: center;
   color: white;
-  background-color: #67bdff;
+  background-color: #38b8f3;
   border: none;
   margin-left: 20px;
 }

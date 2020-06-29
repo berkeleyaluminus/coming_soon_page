@@ -11,9 +11,14 @@ import Navbar from "./components/navbar.component";
 function App() {
   return (
     <Router>
-      <Navbar/>
       <main>
         <section className="presentation">
+        <div className = "heading">
+        <div class= "logo-container">
+          <h4 class="logo">Aluminus</h4>
+        </div>
+        <Navbar/>
+        </div>
           <div className="col1">
               <div className="product-description">
                 <div className="description-text">
@@ -29,14 +34,14 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className = "main-image">
-                <img src={require('./images/woman-tossing-her-hat-3028514-removebg-preview.png')} alt="university-student"/>
-              </div>
+          </div>
+          <div className="downarrow">
+              <img src={require('./images/downarrow2.png')} alt="downarrow"/>
           </div>
           <div className="col2">
           <h1 className="about-us-tag">Aluminus for</h1>
           </div>
-
+        
           <section className="about-us">
             <div class="student-info">
               <h1>Students</h1>
