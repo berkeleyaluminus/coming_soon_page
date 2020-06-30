@@ -32,11 +32,21 @@
   text-decoration: none;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
+.main{
+  height: 100%;
+  width: 100%;
+}
+
 .presentation{
   display: flex;
-  height: 270px;
+  height: auto;
   width: 1525px;
   min-height: 270vh;
+  min-width:1525px;
   flex-direction: column;
 }
 
@@ -76,6 +86,8 @@
 .col1{
   display: flex;
   height: 650px;
+  /*width: 1525px; */
+  /* height:100%; */
   width: 1525px;
   background-image: url("images/bg1v6wblur.jpg");
 }
@@ -102,6 +114,7 @@
   justify-content: center;
   text-align: center;
   margin: 0 auto;
+  margin-top: 40px;
 }
 
 .about-us{

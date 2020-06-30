@@ -19,7 +19,7 @@ function App() {
         </div>
         <Navbar/>
         </div>
-          <div className="col1">
+          <div className="col1" id="aboutus">
               <div className="product-description">
                 <div className="description-text">
                   <h1>Crowdfund Your College Experience.</h1>
@@ -35,11 +35,13 @@ function App() {
                 </div>
               </div>
           </div>
+
           <div className="downarrow">
-              <img src={require('./images/downarrow2.png')} alt="downarrow"/>
+            <img src={require('./images/downarrow2.png')} alt="downarrow"/>
           </div>
-          <div className="col2">
-          <h1 className="about-us-tag">Aluminus for</h1>
+
+          <div className="col2" id="product">
+            <h1 className="about-us-tag">Aluminus for</h1>
           </div>
         
           <section className="about-us">
@@ -57,7 +59,7 @@ function App() {
             </div>
           </section>
         
-        <div className="col4">
+        <div className="col4" id="partners">
             <h1 className="partners-tag">Partners</h1>
 
             <section className="partners">
